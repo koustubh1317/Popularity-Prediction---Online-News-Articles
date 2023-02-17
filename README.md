@@ -7,13 +7,25 @@ Just like google news when we search for a particular field, no. of article base
 
 Based on word tags in the article we can predict the impression pecentage of the news letter article.
 
-###Data needs to be preprocessed.
-- Missing values(ffill, mean).
-- Noises(outlier detection).
-###Exploratory Data analysis
-- One hot encoded dataset(remove/keep).
-- Break the regression into classifier model.
-- What if the problem stays as regression?.
-###Random forest 
-- Choosing the best no. of estimators.
-- How random forest is used for regression?
+## About dataset
+It contains around 40000 rows and 61 columns (58 predictive-attributes, 2 non-predictive, 1 goal-field). This dataset is used to predict our results which is popularity of the article.
+![image](https://user-images.githubusercontent.com/54525819/219680349-8a05522f-ff66-44e9-9d0a-a6abe4ce4560.png)
+
+## Gettig Started
+Workflow:-
+
+### Step 1:-  Data Assessing and cleaning
+Our dataset is pretty clean and we have checked for the missing values if any.
+![image](https://user-images.githubusercontent.com/54525819/219682719-db536b9f-3ed8-4e2a-83e2-8de7a4d390b7.png)
+
+### Step 2:-  Exploratory Data Analysis
+
+### Step 3:-  Model Training and selection (Random Forest Model Building)
+
+### Step 4:-  Optimizing the accuracy rate
+
+
+
+
+
+
